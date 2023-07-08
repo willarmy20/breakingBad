@@ -1,45 +1,47 @@
 {
-    "Characters": [{
+    "Characters": [
+        {
         "index": 0,
         "name": "Walter White",
         "portrayedBy": "Bryan Cranston",
-        "artwork": ["https://static.wikia.nocookie.net/breakingbad/images/e/e7/BB-S5B-Walt-590.jpg/revision/latest?cb=20130928055404"],
+        "artwork": ["./img/walter.jpg"],
+        "artwork2": ["./img/walt2.jpg"],
         "bio": "Walter is an American former chemist and major narcotics distributor from Albuquerque, New Mexico, whose drug empire became the largest meth operation in American history."
     },{
         "index": 1,
         "name": "Jesse Pinkman",
         "portrayedBy": "Aaron Paul",
-        "artwork": ["https://static.wikia.nocookie.net/breakingbad/images/c/ca/Jesse_Season_5B.jpg/revision/latest?cb=20220611094739"],
+        "artwork": ["./img/JessPinkman.jpg"],
         "bio": "Jesse is best known as the former business and meth cook partner of his former chemistry teacher Walter White, teaming up with Walt for two years to help him manufacture chemically pure crystal methamphetamine so Walt could provide for his family"
     },{
-        "index": 1,
+        "index": 2,
         "name": "Gustavo Fring",
         "portrayedBy": "Giancarlo Esposito",
-        "artwork": ["https://static.wikia.nocookie.net/breakingbad/images/b/be/Season_4_-_Gus.jpg/revision/latest/scale-to-width-down/1000?cb=20200608213000"],
+        "artwork": ["./img/Gus.jpg"],
         "bio": "Gus is a Chilean-American restaurant entrepreneur and major narcotics distributor who primarily worked in Albuquerque, New Mexico. Originally collaborating with the Mexican drug cartel to distribute cartel cocaine, Gus eliminated his dependence on the cartel and began distributing methamphetamine himself, and eventually became the kingpin of his solo drug empire, which was the most successful drug operation in United States history "
     },{
-        "index": 1,
+        "index": 3,
         "name": "Mike Ehrmantraut",
         "portrayedBy": "Jonathan Banks",
-        "artwork": ["https://static.wikia.nocookie.net/breakingbad/images/4/46/BCS_S6_Portrait_Mike.jpg/revision/latest/scale-to-width-down/1000?cb=20220522174959"],
+        "artwork": ["./img/Mike.jpg"],
         "bio": "Mike is an American career criminal, Marine Corps veteran, and former Philadelphia police officer. Calm and calculating, Mike later became a private investigator, hitman, assassin, and violent fixer for drug traffickers to financially support his family (his daughter-in-law Stacey and granddaughter Kaylee). He worked for both Gustavo Fring and Saul Goodman as a private investigator, head of security, cleaner, fixer, and hitman."
     },{
-        "index": 1,
+        "index": 4,
         "name": "Skyler White",
         "portrayedBy": "Aaron Paul",
-        "artwork": ["https://static.wikia.nocookie.net/breakingbad/images/3/33/Skyler_S5b.jpg/revision/latest?cb=20130717044318"],
+        "artwork": ["./img/Skylar.jpg"],
         "bio": "Skyler s the wife of Walter White and the sister of Marie Schrader. She and Walter have a teenage son, Walter White Jr., and an infant daughter, Holly White. She has had several meager sources of income: writing short stories, selling items on eBay, working as a bookkeeper, and ultimately helping her husband launder money. "
     },{
-        "index": 1,
+        "index": 5,
         "name": "Hank Schrader",
         "portrayedBy": "Dean Norris",
-        "artwork": ["https://static.wikia.nocookie.net/breakingbad/images/7/7b/Hank_S5b.jpg/revision/latest?cb=20130717044210"],
+        "artwork": ["./img/Hank.jpg"],
         "bio": "is a high-ranking officer at the Albuquerque office of the Drug Enforcement Administration (DEA), starting out as a DEA agent alongside his close friend and partner Steven Gomez, and later being promoted to Assistant Special Agent in Charge of the DEA (ASAC)."
     },{
-        "index": 1,
+        "index": 6,
         "name": "Saul Goodman",
         "portrayedBy": "Bob Odenkirk",
-        "artwork": ["https://static.wikia.nocookie.net/breakingbad/images/8/8e/BCS_S6_Portrait_Jimmy.jpg/revision/latest/scale-to-width-down/1000?cb=20220802210840"],
+        "artwork": ["./img/Saul.jpg"],
         "bio": "Saul Goodman, is an American criminal defense lawyer, scam artist, and convicted criminal who is serving an 86-year sentence at ADX Montrose. Originally from Cicero, Illinois during his career as a scam artist, Jimmy moved to Albuquerque, New Mexico where he worked as a lawyer, and later resided as a fugitive in Omaha, Nebraska before being caught and apprehended in a federal prison at Montrose, Colorado."
     }
     ]
