@@ -1,6 +1,53 @@
-
-.modal-info {
-    margin-left: auto;
-    text-align: right;
-    margin-bottom: 50%;
+body{
+    background-image: url("../img/breakingbadwallpaper2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
 }
+
+/* the cards will be stacked vertically from top to bottom */
+#charactersCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.cards{
+    border-radius: 25px;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px; /* Optional: Add spacing between cards */
+    margin-bottom: 20px; /* Optional: Add spacing between rows */
+}
+
+    /* CSS for the modal */
+    .modal {
+        display: none;
+        position: fixed;
+        /* z-index: 1; */
+        /* left: 0; */
+        top: 0;
+        width: 80%;
+        height: 50%;
+        overflow: auto;
+        /* background-color: rgba(0, 0, 0, 0.8); */
+        background-color: white;
+    }
+    
+    .modal-content {
+        display: block;
+        margin: 10% auto;
+        width: 80%;
+        max-width: 800px;
+    }
+    .modal-img {
+        display: block;
+        width: 30%;
+        height: auto;
+    }
+    
+    .modal-info {
+        margin-left: auto;
+        text-align: right;
+        margin-bottom: 50%;
+    }
