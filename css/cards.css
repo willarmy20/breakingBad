@@ -1,13 +1,23 @@
 body{
-    /* background-image: url("https://www.cucinare.tv/wp-content/uploads/2020/02/Breaking-Bad.jpg"); */
+    background-image: url("../img/breakingbadwallpaper2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    background-position: center center;
+    min-height: 100vh;
+}
+
+/* the cards will be stacked vertically from top to bottom */
+#charactersCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 .cards{
     border-radius: 25px;
-    width: 250px;
-    height: 350px;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px; /* Optional: Add spacing between cards */
+    margin-bottom: 20px; /* Optional: Add spacing between rows */
 }
 
     /* CSS for the modal */
